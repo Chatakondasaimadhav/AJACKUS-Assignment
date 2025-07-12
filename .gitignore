@@ -1,0 +1,33 @@
+# Node-related (if you used npm packages for testing or styling)
+node_modules/
+package-lock.json
+
+# Freemarker build artifacts (if any templating engine caches are created)
+*.ftl~
+
+# OS-generated files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# Logs or temporary files
+*.log
+*.tmp
+*.bak
+
+# Deployment artifacts or local environment files
+.env
+.env.local
+
+# IDE/editor-specific settings
+.vscode/
+.idea/
+*.swp       # vi/vim
+*.sublime-project
+*.sublime-workspace
+
+# Output directory if you generate one
+dist/
+build/
+
+# GitHub-related
+.gitignore
